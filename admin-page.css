@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.sidebar {
+    width: 0;
+    position: fixed;
+    height: 100%;
+    background-color: #821131;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+    color: #F8EDED;
+}
+
+.sidebar a {
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #E85C0D;
+    display: block;
+    transition: 0.3s;
+    margin: 5px;
+}
+
+.sidebar a:hover {
+    background-color: #575757;
+}
+
+.open-btn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #821131;
+    color: #F8EDED;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    margin: 15px;
+    position: fixed;
+    z-index: 1;
+}
+.close-btn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #821131;
+    color: #F8EDED;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 15px 0 15px 12rem;
+    position: fixed;
+    z-index: 1;
+    opacity: 0;
+}
+
+.main-content {
+    margin-left: 60px;
+    padding: 20px;
+    background-color: #F8EDED;
+    height: 100vh;
+    width: 100%;
+}
+
+h1 {
+    color: #C7253E;
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+    background-color: #FABC3F;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.button-container button {
+    width: 200px;
+    padding: 15px;
+    margin: 0 10px;
+    background-color: #FABC3F;
+    border: none;
+    color: #F8EDED;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button-container button:hover {
+    background-color: #E85C0D;
+}
